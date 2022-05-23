@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.system{
+    display: flex;
+    justify-content: center;
+    background-color: #5F9EA0;
+    height: 800px;
+    width: 60vw;
+    border: 1px #27566b;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    box-shadow: 5px 10px 8px #27566b;
+    
+}
+.title{
+    margin-bottom: 150px;
+    text-transform: capitalize;
+    font-size: 60px;
+    margin-top: -200px;
+    text-shadow: 5px 10px 8px #226365;
+    color: white;
+    
+    
+    
+}
+
+.btn-area{
+    display: flex;
+ flex-wrap: wrap;
+
+
+}
+
+.btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgb(194, 226, 237);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 20px;
+    
+
+    
+}
+.party-1:hover{
+    background-color: #226365;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1.1); 
+    flex: 1;
+}
+.party-2:hover{
+    background-color: #226365;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1.1);
+    flex: 1;
+}
+.party-3:hover{
+    background-color: #226365;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1.1);
+    flex: 1;
+}
+.result{
+    background-color: #27566b;
+    margin-top: 50px;
+    font-weight: 700;
+    color: white;
+}
+.result:hover{
+    background-color: #aed4cb;
+    color: #27566b;
+    transform: scale(1.1);
+}
+span{
+    visibility: hidden;
+}
